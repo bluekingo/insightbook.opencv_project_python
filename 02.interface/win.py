@@ -1,6 +1,7 @@
 import cv2
 
-file_path = '../img/girl.jpg'
+file_path = 'C:/Users/bluek/Coding/insightbook.opencv_project_python/img/girl.jpg'
+#file_path = '../img/girl.jpg'
 img = cv2.imread(file_path)                            # 이미지를 기본 값으로 읽기
 img_gray = cv2.imread(file_path, cv2.IMREAD_GRAYSCALE) # 이미지를 그레이 스케일로 읽기
 
